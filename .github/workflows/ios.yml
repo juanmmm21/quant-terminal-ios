@@ -16,7 +16,7 @@ jobs:
 
   app:
     name: App build + QuantKit tests (iOS Simulator)
-    runs-on: macos-14
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - run: xcodebuild -version
