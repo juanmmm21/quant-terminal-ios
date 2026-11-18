@@ -78,6 +78,7 @@ only) → **Activar notificaciones**. Revoke a lost phone with
 
 ## Status
 
-The network layer is built and tested on Linux (Swift 6.0.3) in the session that created it; the
-iOS app target is compiled by `.github/workflows/ios.yml` on GitHub's macOS runners. It has not
-been run on a physical device or signed yet — that needs your Apple account.
+`.github/workflows/ios.yml` builds the app for the iOS Simulator without signing and runs the
+QuantKit tests on Linux (Swift 6), macOS and the iOS Simulator; the first run on the
+`feat/quant-roadmap` branch (2026-11-18) passed all three. The app has not been signed or run on
+a physical device yet — that needs your Apple account.
