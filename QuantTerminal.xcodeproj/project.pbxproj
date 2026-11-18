@@ -1,0 +1,168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+		B4FDA2E4FD0E5D774CAE7366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate.swift"; sourceTree = "<group>"; };
+		AD23BF1A6021A99C05661810 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppModel.swift"; sourceTree = "<group>"; };
+		7109BC869F439DDE5CFD644C /* KeychainTokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeychainTokenStore.swift"; sourceTree = "<group>"; };
+		F27E72677D416926D360D597 /* QuantTerminalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuantTerminalApp.swift"; sourceTree = "<group>"; };
+		21313ED1C421C834BC9E6E0E /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertsView.swift"; sourceTree = "<group>"; };
+		748288EE18C14C4A7639EE84 /* KillSwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KillSwitchButton.swift"; sourceTree = "<group>"; };
+		E858F93F213E877DBC149F65 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OverviewView.swift"; sourceTree = "<group>"; };
+		7657EE23CC8EEB739B6ECF6F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootView.swift"; sourceTree = "<group>"; };
+		9B6C00F877111216236EB6BB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		770C5B730A8FBE3C009C5372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		9100B0DD1314159494B5B0B6 /* QuantTerminal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "QuantTerminal.entitlements"; sourceTree = "<group>"; };
+		59DAA59D477A91E75E0468AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		846B9F8FC92ED99DAD2DDF5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FDA2E4FD0E5D774CAE7366 /* AppDelegate.swift */; };
+		C42B122F4C5426FC64DC48E1 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD23BF1A6021A99C05661810 /* AppModel.swift */; };
+		C8F7AA35E8DDD03F6EAA21B1 /* KeychainTokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7109BC869F439DDE5CFD644C /* KeychainTokenStore.swift */; };
+		BBD96CC52E5C4B88ED3979D4 /* QuantTerminalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E72677D416926D360D597 /* QuantTerminalApp.swift */; };
+		971438CC30E318CC4534AFAE /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21313ED1C421C834BC9E6E0E /* AlertsView.swift */; };
+		33FE2F6CCEB5E5F1C095AC11 /* KillSwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748288EE18C14C4A7639EE84 /* KillSwitchButton.swift */; };
+		07551AF0CDDE32A9649A50A8 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858F93F213E877DBC149F65 /* OverviewView.swift */; };
+		162D836C7C50E6AD190F4643 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657EE23CC8EEB739B6ECF6F /* RootView.swift */; };
+		0366047E1EAD5CC5EA2D8838 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C00F877111216236EB6BB /* SettingsView.swift */; };
+		51EEB38EB1D290F7AEDDF660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DAA59D477A91E75E0468AF /* Assets.xcassets */; };
+		3E6556D0BD440843D94D82B5 /* QuantKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4CBEAE4A2183E6B65348B925 /* QuantKit */; };
+		FE930DE1182D979D65C54991 /* QuantTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4294EF9108B9E21BD6D739 /* QuantKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = QuantKit; sourceTree = "<group>"; };
+		38DF21AEF4612506D6BE5CBE /* Views */ = {isa = PBXGroup; children = (
+				21313ED1C421C834BC9E6E0E /* AlertsView.swift */,
+				748288EE18C14C4A7639EE84 /* KillSwitchButton.swift */,
+				E858F93F213E877DBC149F65 /* OverviewView.swift */,
+				7657EE23CC8EEB739B6ECF6F /* RootView.swift */,
+				9B6C00F877111216236EB6BB /* SettingsView.swift */,
+			); path = Views; sourceTree = "<group>"; };
+		66479F0DDEBFC9D6D34CE1B3 /* QuantTerminal */ = {isa = PBXGroup; children = (
+				B4FDA2E4FD0E5D774CAE7366 /* AppDelegate.swift */,
+				AD23BF1A6021A99C05661810 /* AppModel.swift */,
+				7109BC869F439DDE5CFD644C /* KeychainTokenStore.swift */,
+				F27E72677D416926D360D597 /* QuantTerminalApp.swift */,
+				770C5B730A8FBE3C009C5372 /* Info.plist */,
+				9100B0DD1314159494B5B0B6 /* QuantTerminal.entitlements */,
+				59DAA59D477A91E75E0468AF /* Assets.xcassets */,
+				38DF21AEF4612506D6BE5CBE /* Views */,
+			); path = QuantTerminal; sourceTree = "<group>"; };
+		D1D0524B025E57AFFF263442 /* App */ = {isa = PBXGroup; children = (
+				66479F0DDEBFC9D6D34CE1B3 /* QuantTerminal */,
+			); path = App; sourceTree = "<group>"; };
+		2F3A6B1E78F896718625FF06 /* Products */ = {isa = PBXGroup; children = (
+				FE930DE1182D979D65C54991 /* QuantTerminal.app */,
+			); name = Products; sourceTree = "<group>"; };
+		518DA81DB9B99529C0C0AEBE = {isa = PBXGroup; children = (
+				AF4294EF9108B9E21BD6D739 /* QuantKit */,
+				D1D0524B025E57AFFF263442 /* App */,
+				2F3A6B1E78F896718625FF06 /* Products */,
+			); sourceTree = "<group>"; };
+		D8E2B34C6803A5DAEDA2CB7E /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+				846B9F8FC92ED99DAD2DDF5B /* AppDelegate.swift in Sources */,
+				C42B122F4C5426FC64DC48E1 /* AppModel.swift in Sources */,
+				C8F7AA35E8DDD03F6EAA21B1 /* KeychainTokenStore.swift in Sources */,
+				BBD96CC52E5C4B88ED3979D4 /* QuantTerminalApp.swift in Sources */,
+				971438CC30E318CC4534AFAE /* AlertsView.swift in Sources */,
+				33FE2F6CCEB5E5F1C095AC11 /* KillSwitchButton.swift in Sources */,
+				07551AF0CDDE32A9649A50A8 /* OverviewView.swift in Sources */,
+				162D836C7C50E6AD190F4643 /* RootView.swift in Sources */,
+				0366047E1EAD5CC5EA2D8838 /* SettingsView.swift in Sources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+		804DB52E2955449D2F091C7E /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+				3E6556D0BD440843D94D82B5 /* QuantKit in Frameworks */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+		00513FA0CE487262D0410603 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+				51EEB38EB1D290F7AEDDF660 /* Assets.xcassets in Resources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+		969595A508627F35A110362C /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			}; name = Debug; };
+		4C95F91A6D5CD87BB5DB8FDD /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			}; name = Release; };
+		A3FD2624D90AA76C1E18FB70 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/QuantTerminal/QuantTerminal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/QuantTerminal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quant.terminal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			}; name = Debug; };
+		CB4CAEBFF1A865FD02635BC0 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/QuantTerminal/QuantTerminal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/QuantTerminal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quant.terminal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			}; name = Release; };
+		F72CF5329F6CB55C2A8467D4 /* Build configuration list */ = {isa = XCConfigurationList; buildConfigurations = (
+				969595A508627F35A110362C /* Debug */,
+				4C95F91A6D5CD87BB5DB8FDD /* Release */,
+			); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		29558535A58E48B54399819B /* Build configuration list */ = {isa = XCConfigurationList; buildConfigurations = (
+				A3FD2624D90AA76C1E18FB70 /* Debug */,
+				CB4CAEBFF1A865FD02635BC0 /* Release */,
+			); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		42AEFBAE01D2DFD981F7DA7D /* QuantTerminal */ = {isa = PBXNativeTarget; buildConfigurationList = 29558535A58E48B54399819B /* Build configuration list */; buildPhases = (
+				D8E2B34C6803A5DAEDA2CB7E /* Sources */,
+				804DB52E2955449D2F091C7E /* Frameworks */,
+				00513FA0CE487262D0410603 /* Resources */,
+			); buildRules = (); dependencies = (); name = QuantTerminal; packageProductDependencies = (
+				4CBEAE4A2183E6B65348B925 /* QuantKit */,
+			); productName = QuantTerminal; productReference = FE930DE1182D979D65C54991 /* QuantTerminal.app */; productType = "com.apple.product-type.application"; };
+		42CE67A074130D4EC61483B1 /* XCLocalSwiftPackageReference "QuantKit" */ = {isa = XCLocalSwiftPackageReference; relativePath = QuantKit; };
+		4CBEAE4A2183E6B65348B925 /* QuantKit */ = {isa = XCSwiftPackageProductDependency; package = 42CE67A074130D4EC61483B1 /* XCLocalSwiftPackageReference "QuantKit" */; productName = QuantKit; };
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; }; buildConfigurationList = F72CF5329F6CB55C2A8467D4 /* Build configuration list */; compatibilityVersion = "Xcode 15.0"; developmentRegion = es; hasScannedForEncodings = 0; knownRegions = (es, en, Base); mainGroup = 518DA81DB9B99529C0C0AEBE; packageReferences = (
+				42CE67A074130D4EC61483B1 /* XCLocalSwiftPackageReference "QuantKit" */,
+			); productRefGroup = 2F3A6B1E78F896718625FF06 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (
+				42AEFBAE01D2DFD981F7DA7D /* QuantTerminal */,
+			); };
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
