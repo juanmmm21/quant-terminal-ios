@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-11-18T00:07:51.465818+00:00",
+  "bot": {
+    "status": "running",
+    "message": null,
+    "updated_at": "2026-11-18T00:07:51.443945+00:00"
+  },
+  "trader": {
+    "alive": true,
+    "heartbeat_age_seconds": 0.022443,
+    "venue": "binance-testnet",
+    "last_action": "hold",
+    "halted_reason": null,
+    "kill_pending": false
+  },
+  "strategy": {
+    "name": "rsi_mean_reversion",
+    "timeframe": "1h",
+    "symbol": "BTCUSDT",
+    "gate_passed": false,
+    "promoted_at": "2026-11-18T00:00:00+00:00"
+  },
+  "pnl": {
+    "currency": "USDT",
+    "initial_equity": "10000",
+    "equity": "10007.0",
+    "pnl": "7.0",
+    "return_pct": 0.0007,
+    "position": "0.001",
+    "last_price": "65000.10",
+    "equity_curve": [
+      {
+        "at": "2026-11-18T00:00:00+00:00",
+        "equity": "10000.0"
+      },
+      {
+        "at": "2026-11-18T01:00:00+00:00",
+        "equity": "10003.5"
+      },
+      {
+        "at": "2026-11-18T02:00:00+00:00",
+        "equity": "10007.0"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "alert_id": "50e6bac8ae774a86",
+      "at": "2026-11-18T02:30:00+00:00",
+      "kind": "kill_retry",
+      "severity": "critical",
+      "title": "Parada de emergencia pendiente",
+      "body": "El exchange no responde; se reintenta cancelar cada ciclo."
+    },
+    {
+      "alert_id": "19ee3baae64a8d7c",
+      "at": "2026-11-18T01:00:00+00:00",
+      "kind": "fill",
+      "severity": "info",
+      "title": "Compra ejecutada (paper)",
+      "body": "0.001 a 65000.10 en binance-testnet"
+    }
+  ],
+  "disclaimer": "Paper trading on the Binance testnet: test funds, not real money."
+}
