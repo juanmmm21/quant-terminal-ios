@@ -1,0 +1,35 @@
+name: ios
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  quantkit-linux:
+    name: QuantKit tests (Linux, Swift 6)
+    runs-on: ubuntu-latest
+    container: swift:6.0-jammy
+    steps:
+      - uses: actions/checkout@v4
+      - working-directory: QuantKit
+        run: swift test
+
+  app:
+    name: App build + QuantKit tests (iOS Simulator)
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - run: xcodebuild -version
+      - name: QuantKit tests on macOS
+        working-directory: QuantKit
+        run: swift test
+      - name: Build the app (no signing)
+        run: |
+          xcodebuild -project QuantTerminal.xcodeproj -scheme QuantTerminal \
+            -configuration Debug -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO build
+      - name: QuantKit tests on the iOS Simulator
+        working-directory: QuantKit
+        run: |
+          DEVICE=$(xcrun simctl list devices available | grep -m1 -o 'iPhone [0-9][0-9]* (\|iPhone [0-9][0-9]*' | head -1 | sed 's/ ($//')
+          xcodebuild -scheme QuantKit -destination "platform=iOS Simulator,name=${DEVICE:-iPhone 15}" test
